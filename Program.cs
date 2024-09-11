@@ -14,5 +14,14 @@ class Program
             }
         }
         string[] shortStrings = new string[shortStringCount];
+        int index = 0;
+        for (int i = 0; i < originalArray.Length; i++)
+        {
+            if (originalArray[i].Length <= 3)
+            {
+                shortStrings[index] = originalArray[i];
+                index++;
+            }
+        }
     }
 }
