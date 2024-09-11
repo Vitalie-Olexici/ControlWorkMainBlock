@@ -23,5 +23,10 @@ class Program
                 index++;
             }
         }
+        Console.WriteLine("Результат:");
+        for (int i = 0; i < shortStrings.Length; i++)
+        {
+            Console.WriteLine(shortStrings[i]);
+        }
     }
 }
