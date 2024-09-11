@@ -13,5 +13,6 @@ class Program
                 shortStringCount++;
             }
         }
+        string[] shortStrings = new string[shortStringCount];
     }
 }
