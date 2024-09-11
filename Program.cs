@@ -5,5 +5,6 @@ class Program
     static void Main()
     {
         string[] originalArray = { "Hello", "2", "world", ":-)" };
+        int shortStringCount = 0;
     }
 }
